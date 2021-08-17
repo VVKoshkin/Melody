@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: #635854;
+  border-bottom: 4px solid #3596f5;
+}
+
+.navbar {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 80px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar__logo {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.navbar__contacts {
+  text-align: right;
+  color: #fff;
+}
+.navbar__contacts-text {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+}
+.navbar__contacts-phone {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+}
